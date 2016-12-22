@@ -1,0 +1,72 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#292E37;
+  color: #FF6633;
+  overflow-x: hidden;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+#title {
+  text-align: center;
+  margin: 5px;
+
+}
+
+#menu-button {
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+#map {
+  height: 80%;
+  width: 100%;
+}
+
+#info-window {
+  color: black;
+}
+
+#list {
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+#places-list {
+  width: 100%;
+  cursor: pointer;
+  cursor: hand;
+  padding: 0,0, 0, 0;
+}
+
+.side-bar {
+  height: 80%;
+  display: block;
+  width: 15%;
+  margin-top: 0;
+  margin-left: 0;
+  background-color:#292E37;
+  position: fixed;
+  z-index: 1;
+  text-align: left;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+    width: 25%;
+  }
+}
